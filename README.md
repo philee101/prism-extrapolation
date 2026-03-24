@@ -6,7 +6,7 @@ Demo notebook for **"Position as Probability: Self-Supervised Transformers that 
 - CUDA optimization for A100 + torch.dynamo
 - Model hyperparameters tuned for **Addition task** with drastically reduced number of attention heads/"cursors" for compute efficiency (significantly lower than paper reported values)
 - Debug/logging configs
-- WARNING: Code is provided "as-is" for reproducibility/research purposes only. As a disclaimerm code is in unmodified form from a colab debugging workflow. Significant refactoring is still needed.
+- WARNING: Code is provided "as-is" for reproducibility/research purposes only. As a disclaimer, code is in unmodified form from a colab debugging workflow. Significant refactoring is still needed.
 
 ## **II. Positional Encoding Implementations**
 - Absolute and Relative Sinusoidal PE baselines
